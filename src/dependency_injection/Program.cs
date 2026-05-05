@@ -1,7 +1,16 @@
+using dependency_injection.Codes;
+using dependency_injection.Interface;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//builder.Services.AddScoped<IMembership, Membership>();
+//builder.Services.AddSingleton<IMembership, Membership>();
+//builder.Services.AddTransient<IMembership, Membership>();
+
+builder.Services.AddKeyedScoped<IMembership, MembershipImprove>("ScopedMembership1");
 
 var app = builder.Build();
 
