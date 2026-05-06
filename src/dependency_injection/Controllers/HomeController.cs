@@ -9,7 +9,11 @@ namespace dependency_injection.Controllers
     {
         private readonly IMembership _imembership;
 
-        public HomeController(IMembership imembership)
+        //public HomeController(IMembership imembership)
+        //{
+        //    _imembership = imembership;
+        //}
+        public HomeController([FromKeyedServices("MembershipImprove")] IMembership imembership)
         {
             _imembership = imembership;
         }
