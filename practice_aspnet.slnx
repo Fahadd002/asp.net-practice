@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="Demo.Domain/Demo.Domain.csproj" Id="f01e65a7-e250-4564-98ef-9e8dd4aa8dec" />
+  <Project Path="Demo.Infrastacture/Demo.Infrastacture.csproj" Id="3f321460-c20d-4d8b-b19f-99fab7fa35fb" />
+  <Project Path="Demo.Web/Demo.Web.csproj" Id="7789f0d5-018d-46b3-a6b9-672f885e8b58" />
+  <Project Path="Deom.Application/Demo.Application.csproj" Id="7b8e47f5-c1ae-48b7-be66-a018d6010b4e" />
   <Project Path="src/dependency_injection/dependency_injection.csproj" Id="8194a984-0f4d-4a59-b5f6-160ee28769fa" />
 </Solution>
