@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/F_Shop.Domain/F_Shop.Domain.csproj" Id="e02fc797-87c2-4204-95a8-22701ca2dc3c" />
+  <Project Path="src/F_Shop.Infrastructure/F_Shop.Infrastructure.csproj" Id="dbf25636-4ce7-4ad3-b479-776a13f2167f" />
+  <Project Path="src/F_Shop.Web/F_Shop.Web.csproj" Id="4421233e-11cc-455f-bc65-e6e2eb599c4f" />
+</Solution>

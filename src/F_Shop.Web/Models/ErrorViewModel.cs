@@ -1,4 +1,4 @@
-namespace dependency_injection.Models
+namespace F_Shop.Web.Models
 {
     public class ErrorViewModel
     {
